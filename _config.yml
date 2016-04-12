@@ -1,29 +1,41 @@
-name: Peter Pedersen
-favicon: null
-layout_spectrum: 0.63263
-typography_spectrum: 0.74905
-title: UK IT Leadership Council
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.63263
+title: UK IT Leadership Council
+cta:
+  bucket: null
+  version: null
+  domain: null
 color:
+  saturation: 0.8125
+  brandStrength: 0.6875
+  rhythmicContrast: 0.5
   brandColors:
     - '#ffffff'
     - '#5e6b72'
     - '#ff0000'
     - '#ffcd00'
     - '#de5255'
-  brandStrength: 0.6875
   lightness: 0.625
-  saturation: 0.8125
-  rhythmicContrast: 0.5
 purpose: []
+favicon: null
+name: Peter Pedersen
+typography_spectrum: 0.74905
